@@ -1,0 +1,13 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+
+AUTOMOBILE
+
+ID / INT / NON_NULL, UNIQUE, AUTO_ICREMENT / PRIMARY KEY
+Casa Produttrice / VARCHAR(25) / NON_NULL
+Modello / VARCHAR(50) / NULL
+Cavalli / TINYINT / NULL
+Trazione / CHAR(10) / NULL
+Colore / VARCHAR(50) / NON_NULL
+Usato / BOOL / NON_NULL
+
